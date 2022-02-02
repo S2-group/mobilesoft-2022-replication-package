@@ -1,0 +1,29 @@
+{
+  "type": "native",
+  "devices": {
+    "pixel3": {}
+  },
+  "repetitions": 5,
+  "duration": 180000,
+  "monkeyrunner_path": "/home/greenlab/Android/Sdk/tools/bin/monkeyrunner",
+  "systrace_path": "/home/greenlab/Android/Sdk/platform-tools/systrace/systrace.py",
+  "powerprofile_path": "/home/greenlab/android-runner/android-runner/config/Scripts/power_profile_pixel3.xml",
+  "apps": [
+    "com.google.android.apps.meetings"
+  ],
+  "profilers": {
+    "batterystats": {
+      "cleanup": false,
+      "enable_systrace_parsing": false
+    }
+  },
+  "scripts": {
+    "after_launch": [
+      {
+        "type": "monkeyreplay",
+        "path": "Scripts/meet1.txt"
+      }
+    ]
+  },
+  "time_between_run": 60000
+}
