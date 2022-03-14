@@ -7,7 +7,7 @@ In addition we investigate the impact on energy consumption of different feature
 This repository is devided into two main parts: the actual experiment (`android-runner`) and the analysis of the measured data (`data-analysis`).
 
 ## How to cite us
-The scientific article describing design, execution, and main results of this study is available [here](). 
+The scientific article describing design, execution, and main results of this study is available [here](https://github.com/S2-group/mobilesoft-2022-replication-package/blob/main/MobileSoft22.pdf). 
 If this study is helping your research, consider to cite it is as follows, thanks!
 
 ```
