@@ -1,10 +1,24 @@
-# Do You Have the Energy for This Meeting? An Empirical Study on the Energy Consumption of Android Videoconferencing Apps
+# Do You Have the Energy for This Meeting? An Empirical Study on the Energy Consumption of the Google Meet and Zoom Android apps
 This repository is a companion page of the paper _"Do You Have the Energy for This Meeting? An Empirical Study on the Energy Consumption of Android Videoconferencing Apps"_, submitted for review at the 9th IEEE/ACM International Conference on Mobile Software Engineering and Systems (MOBILESoft), 2022.
 
 The study aims to investigate the energy consumption of two popular Android videoconferencing apps, namely Zoom and Google Meet. 
 In addition we investigate the impact on energy consumption of different features and settings, namely number of participants, and camera, michropone, and virtual background use.
 
 This repository is devided into two main parts: the actual experiment (`android-runner`) and the analysis of the measured data (`data-analysis`).
+
+## How to cite us
+The scientific article describing design, execution, and main results of this study is available [here](). 
+If this study is helping your research, consider to cite it is as follows, thanks!
+
+```
+@inproceedings{wattenbach2022do,
+  title={{Do You Have the Energy for This Meeting? An Empirical Study on the Energy Consumption of the Google Meet and Zoom Android apps}},
+  author={Wattenbach, Leonhard and Basel, Aslan and Maria Fiore, Matteo and Ding, Henley and Verdecchia, Roberto and Malavolta, Ivano},
+  booktitle={Proceedings of International Conference on Mobile Software Engineering and Systems (MOBILESoft 2022).}
+  year={2022},
+  publisher={IEEE/ACM}
+}
+```
 
 ## android-runner
 Python framework for automatically executing measurement-based experiments on native and web apps running on Android devices
